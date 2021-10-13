@@ -56,14 +56,26 @@ h1 {
 }
 
 .form-group {
+  display: flex;
+  justify-content: space-around;
 }
 
 .search-bar {
   width: 40vw;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 20px;
+  border: 3px solid #bec0c3;
+}
+
+input[type="submit"] {
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 5px;
+  border-style: none;
+  font-weight: 500;
   font-size: 20px;
 }
 
-.google-search-button {
+input[type="submit"]:hover {
+  border: 1px solid #bec0c3;
 }
