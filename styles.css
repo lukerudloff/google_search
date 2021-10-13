@@ -1,5 +1,15 @@
 * {
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .wrapper {
@@ -15,6 +25,11 @@
   align-items: center;
 }
 
-.nav-links {
+.nav-link-container {
   margin-left: auto;
+  font-weight: 700;
+}
+
+.nav_link {
+  padding: 0 10px;
 }
