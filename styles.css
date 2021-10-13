@@ -43,3 +43,27 @@ a:hover {
   flex-direction: column;
   align-items: center;
 }
+
+.hero-header {
+  padding: 100px 0 35px;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+.form-container {
+}
+
+.form-group {
+}
+
+.search-bar {
+  width: 40vw;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.google-search-button {
+}
