@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -6,4 +10,11 @@
 .nav-wrapper {
   display: flex;
   flex-direction: row;
+  padding: 6px;
+  height: 60px;
+  align-items: center;
+}
+
+.nav-links {
+  display: inline-block;
 }
