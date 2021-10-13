@@ -12,6 +12,8 @@ a:hover {
   text-decoration: underline;
 }
 
+/* NAVBAR SECTION */
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -32,4 +34,12 @@ a:hover {
 
 .nav_link {
   padding: 0 10px;
+}
+
+/* MAIN/HERO SECTION */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
